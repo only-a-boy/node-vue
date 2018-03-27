@@ -231,9 +231,13 @@
     color: yellow;
   }
 
-  h1, h2{
+  h1, h2 {
     padding: 0;
     margin: 0;
+  }
+
+  h2 {
+    font-size: 16px;
   }
 
   ul {
@@ -255,6 +259,7 @@
     font-size: 16px;
     color: rgba(255, 255, 255, 0.5);
   }
+
   .loading-container {
     position: relative;
     top: 40%;

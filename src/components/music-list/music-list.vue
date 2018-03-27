@@ -7,13 +7,13 @@
 <template>
   <div class="music-list">
     <div class="back" @click="back">
-      <div class="icon-back"></div>
+      <div class="icon-circle-left"></div>
     </div>
     <h1 class="title" v-html="title"></h1>
     <div class="bg-image" :style="bgStyle" ref="bgImage">
       <div class="play-wrapper">
         <div class="play" v-show="songs.length > 0" ref="playButton">
-          <i class="icon-play"></i>
+          <i class="icon-play2"></i>
           <span class="text">随机播放全部</span>
         </div>
       </div>
@@ -152,14 +152,6 @@
     z-index: 50;
   }
 
-  .icon-back {
-    display: block;
-    width: 40px;
-    height: 40px;
-    background: url('../../assets/image/back.png');
-    background-size: cover;
-  }
-
   .title {
     position: absolute;
     top: 0;
@@ -198,17 +190,7 @@
     border: 1px solid #f9d208;
     color: #f9d208;
     border-radius: 100px;
-    font-size: 0;
-  }
-
-  .icon-play {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 6px;
-    width: 25px;
-    height: 25px;
-    background: url('../../assets/image/play.png');
-    background-size: cover;
+    font-size: 16px;
   }
 
   .text {

@@ -23,7 +23,7 @@ export default {
     }
     .desc {
         line-height: 18px;
-        font-size: 16px;
+        font-size: 14px;
         color: #9c1;
     }
 </style>
